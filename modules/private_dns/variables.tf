@@ -6,14 +6,6 @@ variable "common_tags" {
     type = map(string)
 }
 
-# variable "subnet_ids" {
-#     type = map(string)
-# }
-
-# variable "subnet_address_prefixes" {
-#   type        = map(list(string))
-# }
-
 variable "vnet_ids" {
     type = map(string)
 }
