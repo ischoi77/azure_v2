@@ -1,3 +1,14 @@
+/*
+Title: 대규모 infra 구성 및 관리를 위한 Azure 리소스 모듈
+Author: 최인석(Choi In-seok)
+Email: ischoi77@gmail.com, knight7711@naver.com
+Created: 2025-03-28
+Description: Azure AKS 모듈 정의
+repo_url: https://github.com/ischoi77/azure_v2
+Version: v2.0.0
+*/
+
+
 
 resource "azurerm_kubernetes_cluster" "aks" {
   for_each            = var.kubernetes_clusters
